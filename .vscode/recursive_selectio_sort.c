@@ -2,8 +2,8 @@
 
 void Swap(int *x, int *y){
     int temp = *x;
-    int *x = *y;
-    int *y = temp;
+    *x = *y;
+    *y = temp;
 }
 
 int minIndex(int list[], int i, int j){
